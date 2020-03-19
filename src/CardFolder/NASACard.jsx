@@ -10,11 +10,8 @@ export default function TestFunc() {
         axios.get("https://api.nasa.gov/planetary/apod?api_key=AgMlCUXZKWv7uSgNWmL02z19PNSbjIIDHkJTbcsk") 
         .then(response => {
           console.log("NASACARD: response.data ", response.data)
-          return setNasaData(response.data);
+          setNasaData(response.data);
         })
-        .catch(error => {
-            console.log("Error :( ", error)
-          })
         .catch(error => {
           console.log("Error :( ", error)
         })
@@ -26,11 +23,8 @@ export default function TestFunc() {
             title = {nasaData.title}
             date = {nasaData.date}
             hdurl = {nasaData.hdurl}
+            description = {nasaData.explanation}
             copyright = {nasaData.copyright}
             />
     </div>);
 }
-
-
-
-
