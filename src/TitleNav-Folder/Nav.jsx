@@ -15,10 +15,10 @@ const Anchor = styled.a`
 export default function NavFunc() {
     return (
         <Nav>
-            <Anchor href="https://www.google.com/">Click here for Sexy Time</Anchor>
-            <Anchor href="https://www.google.com/">sexy Stuff Part. 2</Anchor>
-            <Anchor href="https://www.google.com/">Click Here If Brave</Anchor>
-            <Anchor href="https://www.google.com/">Barrack Obama's Nudes Leaked?!</Anchor>
+            <Anchor href="https://www.google.com/">A</Anchor>
+            <Anchor href="https://www.google.com/">B</Anchor>
+            <Anchor href="https://www.google.com/">C</Anchor>
+            <Anchor href="https://www.google.com/">D</Anchor>
         </Nav>
     )
 }
