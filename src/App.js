@@ -1,15 +1,14 @@
 import React from "react";
-import "./App.css";
+import "./App.css"; 
+import TestFunc from "./CardFolder/NASACard"
+import MainNav from "./TitleNav-Folder/TitleNav"
 
-function App() {
+export default function App() {
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <MainNav/>
+      <TestFunc/>
     </div>
   );
 }
-
-export default App;
